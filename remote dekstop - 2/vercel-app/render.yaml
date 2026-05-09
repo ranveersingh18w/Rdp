@@ -1,0 +1,22 @@
+# Render Deployment Configuration
+
+This file configures the Render deployment for the Remote Desktop backend.
+
+## Build Command
+```bash
+pip install -r requirements.txt
+```
+
+## Start Command
+```bash
+uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
+## Environment Variables
+None required for basic setup.
+
+## Service Type
+Web Service
+
+## Region
+Choose closest to your location for best performance.
